@@ -6,6 +6,7 @@ Mentor: Jerin philip
 
 
 This is a Lost and Found portal for IIIT-H students.
+This application is written in flask
 
 
 **Usage:**
@@ -33,6 +34,8 @@ This is a Lost and Found portal for IIIT-H students.
 
 **Requirements:**
 
+flask
+python2.7
 User need to create an account by providing all the required details :) .
 
 
