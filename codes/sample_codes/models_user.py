@@ -9,7 +9,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 db=SQLAlchemy(app)
 db.create_all()
 
-
+#User class
 class User(db.Model):
 	__tabelname__ = 'users'
 	id=db.Column(db.Integer,primary_key=True,autoincrement=True)

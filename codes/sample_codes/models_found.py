@@ -1,7 +1,7 @@
 from flask_sqlalchemy import *
 from app import *
 
-
+#Class for found
 class Found(db.Model):
 	__tabelname__ = 'found'
 	id = db.Column(db.Integer,primary_key=True,autoincrement=True)
