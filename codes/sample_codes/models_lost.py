@@ -1,7 +1,7 @@
 from flask_sqlalchemy import *
 from app import *
 
-
+#Class for lost
 class Lost(db.Model):
 	__tabelname__ = 'lost'
 	id = db.Column(db.Integer,primary_key=True,autoincrement=True)
